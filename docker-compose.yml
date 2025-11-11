@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  app:
+    build: .
+    container_name: miltydraft_app
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+      - drafts:/var/www/html/drafts
+    environment:
+      APP_ENV: production
+      APP_URL: http://localhost:8080
+
+volumes:
+  drafts:

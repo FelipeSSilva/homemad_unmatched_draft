@@ -1,0 +1,538 @@
+{
+  "Alice": {
+    "name": "Alice",
+    "attack": "melee",
+    "sets": [
+      "battle-of-legends-volume-one"
+    ],
+    "slug": "alice"
+  },
+  "King Arthur": {
+    "name": "King Arthur",
+    "attack": "melee",
+    "sets": [
+      "battle-of-legends-volume-one"
+    ],
+    "slug": "king-arthur"
+  },
+  "Medusa": {
+    "name": "Medusa",
+    "attack": "range",
+    "sets": [
+      "battle-of-legends-volume-one"
+    ],
+    "slug": "medusa"
+  },
+  "Sinbad": {
+    "name": "Sinbad",
+    "attack": "range",
+    "sets": [
+      "battle-of-legends-volume-one"
+    ],
+    "slug": "sinbad"
+  },
+  "Bigfoot": {
+    "name": "Bigfoot",
+    "attack": "melee",
+    "sets": [
+      "robin-hood-vs-bigfoot"
+    ],
+    "slug": "bigfoot"
+  },
+  "Robin Hood": {
+    "name": "Robin Hood",
+    "attack": "range",
+    "sets": [
+      "robin-hood-vs-bigfoot"
+    ],
+    "slug": "robin-hood"
+  },
+  "Bruce Lee": {
+    "name": "Bruce Lee",
+    "attack": "melee",
+    "sets": [
+      "bruce-lee"
+    ],
+    "slug": "bruce-lee"
+  },
+  "Raptors": {
+    "name": "Raptors",
+    "attack": "melee",
+    "sets": [
+      "jurassic-park-ingen-vs-raptors"
+    ],
+    "slug": "raptors"
+  },
+  "Robert Muldoon": {
+    "name": "Robert Muldoon",
+    "attack": "range",
+    "sets": [
+      "jurassic-park-ingen-vs-raptors"
+    ],
+    "slug": "robert-muldoon"
+  },
+  "Dracula": {
+    "name": "Dracula",
+    "attack": "melee",
+    "sets": [
+      "cobble-fog"
+    ],
+    "slug": "dracula"
+  },
+  "Invisible Man": {
+    "name": "Invisible Man",
+    "attack": "melee",
+    "sets": [
+      "cobble-fog"
+    ],
+    "slug": "invisible-man"
+  },
+  "Jekyll & Hyde": {
+    "name": "Jekyll & Hyde",
+    "attack": "melee",
+    "sets": [
+      "cobble-fog"
+    ],
+    "slug": "jekyll-hyde"
+  },
+  "Sherlock Holmes": {
+    "name": "Sherlock Holmes",
+    "attack": "melee",
+    "sets": [
+      "cobble-fog"
+    ],
+    "slug": "sherlock-holmes"
+  },
+  "Angel": {
+    "name": "Angel",
+    "attack": "melee",
+    "sets": [
+      "buffy-the-vampire-slayer"
+    ],
+    "slug": "angel"
+  },
+  "Buffy": {
+    "name": "Buffy",
+    "attack": "melee",
+    "sets": [
+      "buffy-the-vampire-slayer"
+    ],
+    "slug": "buffy"
+  },
+  "Spike": {
+    "name": "Spike",
+    "attack": "melee",
+    "sets": [
+      "buffy-the-vampire-slayer"
+    ],
+    "slug": "spike"
+  },
+  "Willow": {
+    "name": "Willow",
+    "attack": "range",
+    "sets": [
+      "buffy-the-vampire-slayer"
+    ],
+    "slug": "willow"
+  },
+  "Little Red": {
+    "name": "Little Red",
+    "attack": "melee",
+    "sets": [
+      "little-red-riding-hood-vs-beowulf"
+    ],
+    "slug": "little-red"
+  },
+  "Beowulf": {
+    "name": "Beowulf",
+    "attack": "melee",
+    "sets": [
+      "little-red-riding-hood-vs-beowulf"
+    ],
+    "slug": "beowulf"
+  },
+  "Deadpool": {
+    "name": "Deadpool",
+    "attack": "melee",
+    "sets": [
+      "deadpool"
+    ],
+    "slug": "deadpool"
+  },
+  "Achilles": {
+    "name": "Achilles",
+    "attack": "melee",
+    "sets": [
+      "battle-of-legends-volume-two"
+    ],
+    "slug": "achilles"
+  },
+  "Bloody Mary": {
+    "name": "Bloody Mary",
+    "attack": "melee",
+    "sets": [
+      "battle-of-legends-volume-two"
+    ],
+    "slug": "bloody-mary"
+  },
+  "Sun Wukong": {
+    "name": "Sun Wukong",
+    "attack": "melee",
+    "sets": [
+      "battle-of-legends-volume-two"
+    ],
+    "slug": "sun-wukong"
+  },
+  "Yennenga": {
+    "name": "Yennenga",
+    "attack": "melee",
+    "sets": [
+      "battle-of-legends-volume-two"
+    ],
+    "slug": "yennenga"
+  },
+  "Daredevil": {
+    "name": "Daredevil",
+    "attack": "melee",
+    "sets": [
+      "hells-kitchen"
+    ],
+    "slug": "daredevil"
+  },
+  "Bullseye": {
+    "name": "Bullseye",
+    "attack": "range",
+    "sets": [
+      "hells-kitchen"
+    ],
+    "slug": "bullseye"
+  },
+  "Elektra": {
+    "name": "Elektra",
+    "attack": "melee",
+    "sets": [
+      "hells-kitchen"
+    ],
+    "slug": "elektra"
+  },
+  "Luke Cage": {
+    "name": "Luke Cage",
+    "attack": "melee",
+    "sets": [
+      "redemption-row"
+    ],
+    "slug": "luke-cage"
+  },
+  "Ghost Rider": {
+    "name": "Ghost Rider",
+    "attack": "melee",
+    "sets": [
+      "redemption-row"
+    ],
+    "slug": "ghost-rider"
+  },
+  "Moon Knight": {
+    "name": "Moon Knight",
+    "attack": "melee",
+    "sets": [
+      "redemption-row"
+    ],
+    "slug": "moon-knight"
+  },
+  "Dr. Sattler": {
+    "name": "Dr. Sattler",
+    "attack": "melee",
+    "sets": [
+      "jurassic-park-sattler-vs-t-rex"
+    ],
+    "slug": "dr-sattler"
+  },
+  "T. Rex": {
+    "name": "T. Rex",
+    "attack": "melee",
+    "sets": [
+      "jurassic-park-sattler-vs-t-rex"
+    ],
+    "slug": "t-rex"
+  },
+  "The Genie": {
+    "name": "The Genie",
+    "attack": "range",
+    "sets": [
+      "houdini-vs-the-genie"
+    ],
+    "slug": "the-genie"
+  },
+  "Harry Houdini": {
+    "name": "Harry Houdini",
+    "attack": "melee",
+    "sets": [
+      "houdini-vs-the-genie"
+    ],
+    "slug": "harry-houdini"
+  },
+  "Squirrel Girl": {
+    "name": "Squirrel Girl",
+    "attack": "melee",
+    "sets": [
+      "teen-spirit"
+    ],
+    "slug": "squirrel-girl"
+  },
+  "Ms. Marvel": {
+    "name": "Ms. Marvel",
+    "attack": "melee",
+    "sets": [
+      "teen-spirit"
+    ],
+    "slug": "ms-marvel"
+  },
+  "Cloak Dagger": {
+    "name": "Cloak Dagger",
+    "attack": "melee",
+    "sets": [
+      "teen-spirit"
+    ],
+    "slug": "cloak-dagger"
+  },
+  "Winter Soldier": {
+    "name": "Winter Soldier",
+    "attack": "melee",
+    "sets": [
+      "for-king-and-country"
+    ],
+    "slug": "winter-soldier"
+  },
+  "Black Widow": {
+    "name": "Black Widow",
+    "attack": "melee",
+    "sets": [
+      "for-king-and-country"
+    ],
+    "slug": "black-widow"
+  },
+  "Black Panther": {
+    "name": "Black Panther",
+    "attack": "melee",
+    "sets": [
+      "for-king-and-country"
+    ],
+    "slug": "black-panther"
+  },
+  "Spiderman": {
+    "name": "Spiderman",
+    "attack": "melee",
+    "sets": [
+      "brains-and-brawn"
+    ],
+    "slug": "spiderman"
+  },
+  "She Hulk": {
+    "name": "She Hulk",
+    "attack": "melee",
+    "sets": [
+      "brains-and-brawn"
+    ],
+    "slug": "she-hulk"
+  },
+  "Doctor Strange": {
+    "name": "Doctor Strange",
+    "attack": "range",
+    "sets": [
+      "brains-and-brawn"
+    ],
+    "slug": "doctor-strange"
+  },
+  "Golden Bat": {
+    "name": "Golden Bat",
+    "attack": "melee",
+    "sets": [
+      "adventures-tales-to-amaze"
+    ],
+    "slug": "golden-bat"
+  },
+  "Annie Christmas": {
+    "name": "Annie Christmas",
+    "attack": "melee",
+    "sets": [
+      "adventures-tales-to-amaze"
+    ],
+    "slug": "annie-christmas"
+  },
+  "Dr. Jill Trent": {
+    "name": "Dr. Jill Trent",
+    "attack": "melee",
+    "sets": [
+      "adventures-tales-to-amaze"
+    ],
+    "slug": "dr-jill-trent"
+  },
+  "Nikola Tesla": {
+    "name": "Nikola Tesla",
+    "attack": "range",
+    "sets": [
+      "adventures-tales-to-amaze"
+    ],
+    "slug": "nikola-tesla"
+  },
+  "Tomoe Gozen": {
+    "name": "Tomoe Gozen",
+    "attack": "range",
+    "sets": [
+      "sun-s-origin"
+    ],
+    "slug": "tomoe-gozen"
+  },
+  "Oda Nobunaga": {
+    "name": "Oda Nobunaga",
+    "attack": "melee",
+    "sets": [
+      "sun-s-origin"
+    ],
+    "slug": "oda-nobunaga"
+  },
+  "The Wayward Sisters": {
+    "name": "The Wayward Sisters",
+    "attack": "melee",
+    "sets": [
+      "slings-and-arrows"
+    ],
+    "slug": "the-wayward-sisters"
+  },
+  "Shakespeare": {
+    "name": "Shakespeare",
+    "attack": "melee",
+    "sets": [
+      "slings-and-arrows"
+    ],
+    "slug": "shakespeare"
+  },
+  "Titania": {
+    "name": "Titania",
+    "attack": "range",
+    "sets": [
+      "slings-and-arrows"
+    ],
+    "slug": "titania"
+  },
+  "Hamlet": {
+    "name": "Hamlet",
+    "attack": "melee",
+    "sets": [
+      "slings-and-arrows"
+    ],
+    "slug": "hamlet"
+  },
+  "Philippa": {
+    "name": "Philippa",
+    "attack": "range",
+    "sets": [
+      "the-witcher-realms-fall"
+    ],
+    "slug": "philippa"
+  },
+  "Yennefer & Triss": {
+    "name": "Yennefer & Triss",
+    "attack": "range",
+    "sets": [
+      "the-witcher-realms-fall"
+    ],
+    "slug": "yennefer-triss"
+  },
+  "Eredin": {
+    "name": "Eredin",
+    "attack": "melee",
+    "sets": [
+      "the-witcher-realms-fall"
+    ],
+    "slug": "eredin"
+  },
+  "Geralt of Rivia": {
+    "name": "Geralt of Rivia",
+    "attack": "melee",
+    "sets": [
+      "the-witcher-steel-silver"
+    ],
+    "slug": "geralt-of-rivia"
+  },
+  "Ancient Leshen": {
+    "name": "Ancient Leshen",
+    "attack": "range",
+    "sets": [
+      "the-witcher-steel-silver"
+    ],
+    "slug": "ancient-leshen"
+  },
+  "Ciri": {
+    "name": "Ciri",
+    "attack": "melee",
+    "sets": [
+      "the-witcher-steel-silver"
+    ],
+    "slug": "ciri"
+  },
+  "Chupacabra": {
+    "name": "Chupacabra",
+    "attack": "melee",
+    "sets": [
+      "battle-of-legends-volume-three"
+    ],
+    "slug": "chupacabra"
+  },
+  "Loki": {
+    "name": "Loki",
+    "attack": "melee",
+    "sets": [
+      "battle-of-legends-volume-three"
+    ],
+    "slug": "loki"
+  },
+  "Blackbeard": {
+    "name": "Blackbeard",
+    "attack": "range",
+    "sets": [
+      "battle-of-legends-volume-three"
+    ],
+    "slug": "blackbeard"
+  },
+  "Pandora": {
+    "name": "Pandora",
+    "attack": "melee",
+    "sets": [
+      "battle-of-legends-volume-three"
+    ],
+    "slug": "pandora"
+  },
+  "Leonardo": {
+    "name": "Leonardo",
+    "attack": "melee",
+    "sets": [
+      "adventures-teenage-mutant-ninja-turtles"
+    ],
+    "slug": "leonardo"
+  },
+  "Michelangelo": {
+    "name": "Michelangelo",
+    "attack": "melee",
+    "sets": [
+      "adventures-teenage-mutant-ninja-turtles"
+    ],
+    "slug": "michelangelo"
+  },
+  "Raphael": {
+    "name": "Raphael",
+    "attack": "melee",
+    "sets": [
+      "adventures-teenage-mutant-ninja-turtles"
+    ],
+    "slug": "raphael"
+  },
+  "Donatello": {
+    "name": "Donatello",
+    "attack": "melee",
+    "sets": [
+      "adventures-teenage-mutant-ninja-turtles"
+    ],
+    "slug": "donatello"
+  }
+}

@@ -7,9 +7,6 @@ if (!isset($_GET['id'])) {
 } else {
     $draft = \App\Draft::load($_GET['id']);
 }
-
-$faction_data = json_decode(file_get_contents('data/factions.json'), true);
-$faction_data = json_decode(file_get_contents('data/heroes.json'), true);
 ?>
 
 
@@ -20,7 +17,7 @@ $faction_data = json_decode(file_get_contents('data/heroes.json'), true);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?= $draft ? $draft->name() . ' | ' : '' ?>TI4 - Milty Draft</title>
+    <title><?= $draft ? $draft->name() . ' | ' : '' ?>Unmatched Draft</title>
     <link rel="stylesheet" href="<?= url('css/style.css?v=' . $_ENV['VERSION']) ?>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,9 +40,9 @@ $faction_data = json_decode(file_get_contents('data/heroes.json'), true);
 
         <?php if ($draft) : ?>
             <h1><?= $draft->name() ?></h1>
-            <h2>Milty Draft</h2>
+            <h2>Unmatched Draft</h2>
         <?php else : ?>
-            <h1>Milty Draft</h1>
+            <h1>Unmatched Draft</h1>
         <?php endif; ?>
 
         <div id="tabs">

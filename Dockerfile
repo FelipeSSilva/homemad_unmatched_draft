@@ -4,6 +4,14 @@ FROM php:8.2-apache
 # Habilita mod_rewrite (para rotas amigáveis)
 RUN a2enmod rewrite
 
+# Permite que o Apache respeite .htaccess no diretório da aplicação
+RUN echo '<Directory /var/www/html>\n\
+    Options Indexes FollowSymLinks\n\
+    AllowOverride All\n\
+    Require all granted\n\
+</Directory>' > /etc/apache2/conf-available/allow-htaccess.conf \
+    && a2enconf allow-htaccess
+
 # Instala dependências necessárias
 RUN apt-get update && apt-get install -y \
     git unzip libzip-dev \

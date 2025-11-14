@@ -47,10 +47,6 @@ p:last-child, label:last-child, span:last-child, a:last-child, abbr:last-child {
   margin-bottom: 0;
 }
 
-p, label {
-  margin-bottom: 1em;
-}
-
 label {
   font-size: 1.4em;
   display: inline-block;
@@ -487,9 +483,11 @@ h4:first-child {
   }
 }
 #draft .slice-graph img {
-  width: 150px;
+  width: 90%;
+  height: 90%;
   position: absolute;
   transform: translate(-50%, -50%);
+  object-fit: cover;
 }
 #draft .slice-graph img:hover + .zoom {
   opacity: 1;
@@ -502,6 +500,8 @@ h4:first-child {
   position: absolute;
   left: 50%;
   top: 50%;
+  width: 100%;
+  height: 100%;
 }
 #draft .slice-graph .zoom {
   opacity: 0;
@@ -576,9 +576,7 @@ h4:first-child {
     padding: 0 7px;
   }
 }
-#draft .resource-count {
-  white-space: nowrap;
-}
+
 #draft .info {
   padding-bottom: 10px;
 }
@@ -618,7 +616,9 @@ h4:first-child {
 #draft .factions .faction img {
   margin-bottom: 10px;
   display: inline-block;
-  width: 200px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 #draft .factions .faction span {
   font-size: 18px;

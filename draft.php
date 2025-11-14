@@ -68,12 +68,6 @@ if (!isset($_GET['id'])) {
                             <p>This draft is over!</p>
                         </div>
 
-                        <?php if (empty($draft->log())) : ?>
-                            <p class="regen-help">
-                                Something not quite right? Untill the first draft-pick is done you can <a class="tabnav" href="#regen">regenerate the draft options</a>.
-                            </p>
-                        <?php endif; ?>
-
                         <div class="players">
                             <?php foreach (array_values($draft->players()) as $i => $player) : ?>
                                 <div id="player-<?= $player['id'] ?>" class="player">
@@ -92,28 +86,6 @@ if (!isset($_GET['id'])) {
                             <?php endforeach; ?>
                         </div>
 
-                        <div class="factions draft-options">
-                            <h3>Maps</h3>
-                            <div class="options">
-                                <?php foreach ($draft->maps() as $map) : ?>
-
-                                    <div class="faction option">
-                                        <div>
-                                            <img src="<?= url('img/maps/' . $map['slug'] . '.png') ?>" /><br />
-
-                                            <span><?= $map['name'] ?></span><br />
-                                            <p class="resource-count">
-                                                Spaces: <?= $map['spaces'] ?>
-                                            </p>
-                                            <a target="_blank" href="https://www.the-unmatched.club/maps/<?= $map['slug'] ?>" class="more">[info]</a><br />
-                                            <button class="draft ban" data-category="map" data-value="<?= $map['name'] ?>">Ban</button>
-                                            <span class="drafted-by" data-category="map" data-value="<?= $map['name'] ?>"></span>
-                                        </div>
-
-                                    </div>
-                                <?php endforeach; ?>
-                            </div>
-                        </div>
                         <div class="slices draft-options">
                             <h3>Heroes</h3>
                             <div class="options">
@@ -134,6 +106,33 @@ if (!isset($_GET['id'])) {
                                                 <span class="drafted-by" data-category="hero" data-value="<?= $heroData['name'] ?>"></span>
                                             </p>
                                         </div>
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                        <div class="factions draft-options">
+                            <h3>Maps</h3>
+                            <div class="options">
+                                <?php foreach ($draft->maps() as $map) : ?>
+
+                                    <div class="faction option">
+
+                                            <img src="<?= url('img/maps/' . $map['slug'] . '.png') ?>" /><br />
+
+                                            <span><?= $map['name'] ?></span><br />
+                                            <p class="resource-count">
+                                                Spaces: <?= $map['spaces'] ?>
+                                            </p>
+                                            <?php foreach ($map['sets_names'] as $setName) : ?>
+                                                <p class="resource-count">
+                                                    Set: <?= $setName ?>
+                                                </p>
+                                            <?php endforeach; ?>
+                                            <a target="_blank" href="https://www.the-unmatched.club/maps/<?= $map['slug'] ?>" class="more">[info]</a><br />
+                                            <button class="draft ban" data-category="map" data-value="<?= $map['name'] ?>">Ban</button>
+                                            <span class="drafted-by" data-category="map" data-value="<?= $map['name'] ?>"></span>
+
+
                                     </div>
                                 <?php endforeach; ?>
                             </div>

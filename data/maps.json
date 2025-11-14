@@ -3,252 +3,224 @@
     "name": "Marmoreal",
     "players": "2-4",
     "spaces": "31",
-    "sets": [
-      "battle-of-legends-volume-one"
-    ],
+    "sets": ["battle-of-legends-volume-one"],
+    "sets_names": ["Battle of Legends, Volume One"],
     "slug": "marmoreal"
   },
   "Sarpedon": {
     "name": "Sarpedon",
     "players": "2-4",
     "spaces": "38",
-    "sets": [
-      "battle-of-legends-volume-one"
-    ],
+    "sets": ["battle-of-legends-volume-one"],
+    "sets_names": ["Battle of Legends, Volume One"],
     "slug": "sarpedon"
   },
   "Yukon": {
     "name": "Yukon",
     "players": "2",
     "spaces": "31",
-    "sets": [
-      "robin-hood-vs-bigfoot"
-    ],
+    "sets": ["robin-hood-vs-bigfoot"],
+    "sets_names": ["Robin Hood vs Bigfoot"],
     "slug": "yukon"
   },
   "Sherwood Forest": {
     "name": "Sherwood Forest",
     "players": "2",
     "spaces": "30",
-    "sets": [
-      "robin-hood-vs-bigfoot"
-    ],
+    "sets": ["robin-hood-vs-bigfoot"],
+    "sets_names": ["Robin Hood vs Bigfoot"],
     "slug": "sherwood-forest"
   },
   "Raptor Paddock": {
     "name": "Raptor Paddock",
     "players": "2",
     "spaces": "28",
-    "sets": [
-      "jurassic-park-ingen-vs-raptors"
-    ],
+    "sets": ["jurassic-park-ingen-vs-raptors"],
+    "sets_names": ["Jurassic Park - Ingen vs. Raptors"],
     "slug": "raptor-paddock"
   },
   "Baskerville Manor": {
     "name": "Baskerville Manor",
     "players": "2-4",
     "spaces": "32",
-    "sets": [
-      "cobble-fog"
-    ],
+    "sets": ["cobble-fog"],
+    "sets_names": ["Cobble & Fog"],
     "slug": "baskerville-manor"
   },
   "Soho": {
     "name": "Soho",
     "players": "2-4",
     "spaces": "29",
-    "sets": [
-      "cobble-fog"
-    ],
+    "sets": ["cobble-fog"],
+    "sets_names": ["Cobble & Fog"],
     "slug": "soho"
   },
   "Sunnydale High": {
     "name": "Sunnydale High",
     "players": "2-4",
     "spaces": "31",
-    "sets": [
-      "buffy-the-vampire-slayer"
-    ],
+    "sets": ["buffy-the-vampire-slayer"],
+    "sets_names": ["Buffy the Vampire Slayer"],
     "slug": "sunnydale-high"
   },
   "The Bronze": {
     "name": "The Bronze",
     "players": "2-4",
     "spaces": "35",
-    "sets": [
-      "buffy-the-vampire-slayer"
-    ],
+    "sets": ["buffy-the-vampire-slayer"],
+    "sets_names": ["Buffy the Vampire Slayer"],
     "slug": "the-bronze"
   },
   "Heorot": {
     "name": "Heorot",
     "players": "2",
     "spaces": "30",
-    "sets": [
-      "little-red-riding-hood-vs-beowulf"
-    ],
+    "sets": ["little-red-riding-hood-vs-beowulf"],
+    "sets_names": ["Little Red Riding Hood vs. Beowulf"],
     "slug": "heorot"
   },
   "Hanging Gardens": {
     "name": "Hanging Gardens",
     "players": "2-4",
     "spaces": "33",
-    "sets": [
-      "battle-of-legends-volume-two"
-    ],
+    "sets": ["battle-of-legends-volume-two"],
+    "sets_names": ["Battle of Legends, Volume Two"],
     "slug": "hanging-gardens"
   },
   "Hell's Kitchen": {
     "name": "Hell's Kitchen",
     "players": "2-4",
     "spaces": "30",
-    "sets": [
-      "hells-kitchen"
-    ],
+    "sets": ["hells-kitchen"],
+    "sets_names": ["Hell's Kitchen"],
     "slug": "hells-kitchen"
   },
   "The Raft": {
     "name": "The Raft",
     "players": "2-4",
     "spaces": "31",
-    "sets": [
-      "redemption-row"
-    ],
+    "sets": ["redemption-row"],
+    "sets_names": ["Redemption Row"],
     "slug": "the-raft"
   },
   "T. Rex Paddock": {
     "name": "T. Rex Paddock",
     "players": "2",
     "spaces": "30",
-    "sets": [
-      "jurassic-park-sattler-vs-t-rex"
-    ],
+    "sets": ["jurassic-park-sattler-vs-t-rex"],
+    "sets_names": ["Jurassic Park - Sattler vs. T-Rex"],
     "slug": "t-rex-paddock"
   },
   "King Solomon's Mine": {
     "name": "King Solomon's Mine",
     "players": "2",
     "spaces": "29",
-    "sets": [
-      "houdini-vs-the-genie"
-    ],
+    "sets": ["houdini-vs-the-genie"],
+    "sets_names": ["Houdini vs. The Genie"],
     "slug": "king-solomons-mine"
   },
   "Navy Pier": {
     "name": "Navy Pier",
     "players": "2-4",
     "spaces": "30",
-    "sets": [
-      "teen-spirit"
-    ],
+    "sets": ["teen-spirit"],
+    "sets_names": ["Teen Spirit"],
     "slug": "navy-pier"
   },
   "Helicarrier": {
     "name": "Helicarrier",
     "players": "2-4",
     "spaces": "29",
-    "sets": [
-      "for-king-and-country"
-    ],
+    "sets": ["for-king-and-country"],
+    "sets_names": ["For King and Country"],
     "slug": "helicarrier"
   },
   "Sanctum Sanctorum": {
     "name": "Sanctum Sanctorum",
     "players": "2-4",
     "spaces": "30",
-    "sets": [
-      "brains-and-brawn"
-    ],
+    "sets": ["brains-and-brawn"],
+    "sets_names": ["Brains and Brawn"],
     "slug": "sanctum-sanctorum"
   },
   "McMinnville OR": {
     "name": "McMinnville OR",
     "players": "2-4",
     "spaces": "42",
-    "sets": [
-      "adventures-tales-to-amaze"
-    ],
+    "sets": ["adventures-tales-to-amaze"],
+    "sets_names": ["Adventures: Tales to Amaze"],
     "slug": "mcminnville-or"
   },
   "Point Pleasant": {
     "name": "Point Pleasant",
     "players": "2-4",
     "spaces": "42",
-    "sets": [
-      "adventures-tales-to-amaze"
-    ],
+    "sets": ["adventures-tales-to-amaze"],
+    "sets_names": ["Adventures: Tales to Amaze"],
     "slug": "point-pleasant"
   },
   "Azuchi Castle": {
     "name": "Azuchi Castle",
     "players": "2",
     "spaces": "31",
-    "sets": [
-      "sun-s-origin"
-    ],
+    "sets": ["sun-s-origin"],
+    "sets_names": ["Sun's Origin"],
     "slug": "azuchi-castle"
   },
   "Globe Theatre": {
     "name": "Globe Theatre",
     "players": "2-4",
     "spaces": "32",
-    "sets": [
-      "globe-theatre"
-    ],
+    "sets": ["globe-theatre"],
+    "sets_names": ["globe-theatre"],
     "slug": "heorot"
   },
   "Streets of Novigrad": {
     "name": "Streets of Novigrad",
     "players": "2-4",
     "spaces": "34",
-    "sets": [
-      "the-witcher-realms-fall"
-    ],
+    "sets": ["the-witcher-realms-fall"],
+    "sets_names": ["The Witcher - Realms Fall"],
     "slug": "streets-of-novigrad"
   },
   "Naglfar": {
     "name": "Naglfar",
     "players": "2-4",
     "spaces": "28",
-    "sets": [
-      "the-witcher-realms-fall"
-    ],
+    "sets": ["the-witcher-realms-fall"],
+    "sets_names": ["The Witcher - Realms Fall"],
     "slug": "naglfar"
   },
   "Kaer Morhen": {
     "name": "Kaer Morhen",
     "players": "2-4",
     "spaces": "32",
-    "sets": [
-      "the-witcher-steel-silver"
-    ],
+    "sets": ["the-witcher-steel-silver"],
+    "sets_names": ["The Witcher - Steel & Silver"],
     "slug": "kaer-morhen"
   },
   "Fayrlund Forest": {
     "name": "Fayrlund Forest",
     "players": "2-4",
     "spaces": "30",
-    "sets": [
-      "the-witcher-steel-silver"
-    ],
+    "sets": ["the-witcher-steel-silver"],
+    "sets_names": ["The Witcher - Steel & Silver"],
     "slug": "fayrlund-forest"
   },
   "Venice": {
     "name": "Venice",
     "players": "2-4",
     "spaces": "33",
-    "sets": [
-      "battle-of-legends-volume-three"
-    ],
+    "sets": ["battle-of-legends-volume-three"],
+    "sets_names": ["Battle of Legends, Volume Three"],
     "slug": "venice"
   },
   "Santa's Workshop": {
     "name": "Santa's Workshop",
     "players": "2-4",
     "spaces": "34",
-    "sets": [
-      "battle-of-legends-volume-three"
-    ],
+    "sets": ["battle-of-legends-volume-three"],
+    "sets_names": ["Battle of Legends, Volume Three"],
     "slug": "santa-s-workshop"
   }
 }

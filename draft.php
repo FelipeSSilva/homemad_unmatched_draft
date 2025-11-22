@@ -85,7 +85,15 @@ if (!isset($_GET['id'])) {
                                 </div>
                             <?php endforeach; ?>
                         </div>
-
+                        <div class="players" id="randommap">
+                            <?php foreach (array_values($draft->players()) as $i => $player) : ?>
+                                <div class="player">
+                                    <h3><span><?= $i + 1 ?></span> Random Maps </h3>
+                                    <p id="randommap-<?= $i ?>">
+                                    </p>
+                                </div>
+                            <?php endforeach; ?>
+                        </div>
                         <div class="slices draft-options">
                             <h3>Heroes</h3>
                             <div class="options">

@@ -37,7 +37,6 @@ $(document).ready(function () {
         }
     });
 
-
     $('.close-reference, #reference-popup img').on('click', function (e) {
         $('#reference-popup').hide();
     });
@@ -119,6 +118,7 @@ $(document).ready(function () {
     if (window.draft) {
         who_am_i();
         draft_status();
+        console.log(selectUniqueSetMaps(3,1));
 
         if (!IS_ADMIN) {
             hide_regen();
@@ -180,7 +180,6 @@ $(document).ready(function () {
                             loading(false);
                         } else {
                             window.draft = resp.draft;
-                            console.log('ué foi');
                             reset_draft();
                             refresh();
                         }
@@ -373,7 +372,6 @@ function restoreSession(e) {
 }
 
 function draft_status() {
-
     let current_player = find_player(draft.draft.current);
 
     let log = '';
@@ -413,6 +411,7 @@ function draft_status() {
     if (draft.done) {
         $('#turn').removeClass('show');
         $('#done').addClass('show');
+        showRandomMaps()
     } else {
         $('#turn').addClass('show');
     }
@@ -499,17 +498,6 @@ function reset_draft() {
     $('#done').removeClass('show');
 }
 
-function getPartner(playerId) {
-    let player = draft.draft.players[playerId];
-    for (let i in draft.draft.players) {
-        let p = draft.draft.players[i];
-        if (p.id != playerId && player.team == p.team) {
-            return p;
-        }
-    }
-    // Throw an error here? Shouldn't happen if the draft is set up correctly
-}
-
 function getPlayerInPosition(position) {
     for (let i in draft.draft.players) {
         let p = draft.draft.players[i];
@@ -518,4 +506,100 @@ function getPlayerInPosition(position) {
         }
     }
     return null;
+}
+
+function selectUniqueSetMaps(numMapsToSelect, numLists) {
+    if (!draft || !draft.draft || !draft.maps) {
+        console.error("Dados de rascunho inválidos fornecidos.");
+        return [];
+    }
+
+    const bannedMapNames = new Set();
+    const players = draft.draft.players;
+
+    for (const playerId in players) {
+        if (players.hasOwnProperty(playerId)) {
+            const mapName = players[playerId].map;
+            if (mapName) {
+                bannedMapNames.add(mapName);
+            }
+        }
+    }
+
+    let availableMaps = [];
+    const mapPool = draft.maps;
+
+    for (const mapSlug in mapPool) {
+        if (mapPool.hasOwnProperty(mapSlug)) {
+            const mapObject = mapPool[mapSlug];
+            if (!bannedMapNames.has(mapObject.name)) {
+                availableMaps.push({ ...mapObject, slug: mapSlug });
+            }
+        }
+    }
+
+    const results = [];
+
+    for (let i = 0; i < numLists; i++) {
+        let selectedMaps = [];
+        let usedSets = new Set();
+
+        let currentPool = [...availableMaps];
+
+        while (selectedMaps.length < numMapsToSelect && currentPool.length > 0) {
+            const validPool = currentPool.filter(map => {
+                return map.sets.every(setId => !usedSets.has(setId));
+            });
+
+            if (validPool.length === 0) {
+                break;
+            }
+
+            const randomIndex = Math.floor(Math.random() * validPool.length);
+            const selectedMap = validPool[randomIndex];
+
+            selectedMaps.push(selectedMap);
+
+            selectedMap.sets.forEach(setId => usedSets.add(setId));
+
+            currentPool = currentPool.filter(map => map !== selectedMap);
+        }
+
+        results.push(selectedMaps);
+    }
+
+    return results;
+}
+
+function showRandomMaps(){
+    let sortedMapLists = selectUniqueSetMaps(3,Object.keys(draft.draft.players).length);
+    if (!Array.isArray(sortedMapLists) || sortedMapLists.length === 0) {
+        console.error("Lista de mapas sorteados inválida ou vazia.");
+        return;
+    }
+
+    sortedMapLists.forEach((mapList, playerIndex) => {
+        const targetId = `randommap-${playerIndex}`;
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            let mapsHTML = '';
+
+            if (mapList.length === 0) {
+                mapsHTML = '<span>Nenhum mapa disponível para sorteio nesta rodada.</span>';
+            } else {
+                mapList.forEach(map => {
+                    mapsHTML += `<strong>${map.name}</strong><br>`;
+                });
+
+                mapsHTML = mapsHTML.slice(0, -4);
+            }
+
+            targetElement.innerHTML = mapsHTML;
+        } else {
+            console.warn(`Elemento HTML com ID ${targetId} não encontrado. Não foi possível exibir os mapas para o jogador ${playerIndex + 1}.`);
+        }
+    });
+
+    $('#randommap').addClass('show');
 }

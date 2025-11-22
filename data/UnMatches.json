@@ -1,0 +1,387 @@
+[
+	{
+		"player_1":{
+			"name": "André",
+			"hero": "Robin Hood",
+			"winner": true		
+		},
+		"player_2": {
+			"name": "Anuah",
+			"hero": "Chupacabra",
+			"winner": false
+		},
+		"data":{
+			"date": "2025-11-17",
+			"map": "Sanctum Sanctorum"
+		}
+	},
+	{
+		"player_1": {
+			"name": "Anuah",
+			"hero": "Blackbeard",
+			"winner": false
+		},
+		"player_2":{
+			"name": "André",
+			"hero": "Bloody Mary",
+			"winner": true		
+		},
+		"data":{
+			"date": "2025-11-17",
+			"map": "Sanctum Sanctorum"
+		}
+	},
+	{
+		"player_1":{
+			"name": "Silva",
+			"hero": "She Hulk",
+			"winner": false		
+		},
+		"player_2": {
+			"name": "Léo",
+			"hero": "The Genie",
+			"winner": true
+		},
+		"data":{
+			"date": "2025-11-17",
+			"map": "Marmoreal"
+		}
+	},
+	{
+		"player_1":{
+			"name": "Silva",
+			"hero": "Sinbad",
+			"winner": true		
+		},
+		"player_2": {
+			"name": "Léo",
+			"hero": "Achilles",
+			"winner": false
+		},
+		"data":{
+			"date": "2025-11-17",
+			"map": "Marmoreal"
+		}
+	},
+	{
+		"player_1": {
+			"name": "Léo",
+			"hero": "Achilles",
+			"winner": false
+		},
+		"player_2":{
+			"name": "Silva",
+			"hero": "She Hulk",
+			"winner": true		
+		},
+		"data":{
+			"date": "2025-11-17",
+			"map": "Marmoreal"
+		}
+	},
+	{
+		"player_1": {
+			"name": "Silva",
+			"hero": "She Hulk",
+			"winner": false
+		},
+		"player_2":{
+			"name": "André",
+			"hero": "Tomoe Gozen",
+			"winner": true		
+		},
+		"data":{
+			"date": "2025-11-17",
+			"map": "Marmoreal"
+		}
+	},
+	{
+		"player_1": {
+			"name": "Silva",
+			"hero": "She Hulk",
+			"winner": false
+		},
+		"player_2":{
+			"name": "André",
+			"hero": "Yennenga",
+			"winner": true		
+		},
+		"data":{
+			"date": "2025-11-17",
+			"map": "Marmoreal"
+		}
+	},
+	{
+		"player_1": {
+			"name": "Léo",
+			"hero": "Bigfoot",
+			"winner": true
+		},
+		"player_2":{
+			"name": "Anuah",
+			"hero": "Pandora",
+			"winner": false		
+		},
+		"data":{
+			"date": "2025-11-17",
+			"map": "Sanctum Sanctorum"
+		}
+	},
+	{
+		"player_1": {
+			"name": "Anuah",
+			"hero": "Loki",
+			"winner": true
+		},
+		"player_2":{
+			"name": "Léo",
+			"hero": "The Genie",
+			"winner": false		
+		},
+		"data":{
+			"date": "2025-11-17",
+			"map": "Sanctum Sanctorum"
+		}
+	},
+	{
+		"player_1": {
+			"name": "Léo",
+			"hero": "The Genie",
+			"winner": true
+		},
+		"player_2":{
+			"name": "Anuah",
+			"hero": "Chupacabra",
+			"winner": false		
+		},
+		"data":{
+			"date": "2025-11-17",
+			"map": "Sanctum Sanctorum"
+		}
+	},
+	{
+		"player_1": { "name": "Léo", "hero": "Bigfoot", "winner": false },
+		"player_2":{ "name": "André", "hero": "Robin Hood", "winner": true },
+		"data":{ "date": "2025-11-17", "map": "Santa's Workshop" }
+	},
+	{
+		"player_1": { "name": "Léo", "hero": "Bigfoot", "winner": true },
+		"player_2":{ "name": "André", "hero": "Bloody Mary", "winner": false },
+		"data":{ "date": "2025-11-17", "map": "Santa's Workshop" }
+	},
+	{
+		"player_1": { "name": "André", "hero": "Yennenga", "winner": true },
+		"player_2":{ "name": "Léo", "hero": "The Genie", "winner": false },
+		"data":{ "date": "2025-11-17", "map": "Santa's Workshop" }
+	},
+	{
+		"player_1": { "name": "Anuah", "hero": "Loki", "winner": false },
+		"player_2":{ "name": "Silva", "hero": "Sinbad", "winner": true },
+		"data":{ "date": "2025-11-17", "map": "Sarpedon" }
+	},
+	{
+		"player_1": { "name": "Anuah", "hero": "Loki", "winner": true },
+		"player_2":{ "name": "Silva", "hero": "Sun Wukong", "winner": false },
+		"data":{ "date": "2025-11-17", "map": "Sarpedon" }
+	},
+	{
+		"player_1": { "name": "Silva", "hero": "Houdini", "winner": true },
+		"player_2":{ "name": "Anuah", "hero": "Blackbeard", "winner": false },
+		"data":{ "date": "2025-11-17", "map": "Sarpedon" }
+	},
+	{
+		"player_1":{ "name": "Everton", "hero": "Sun Wukong", "winner": true },
+		"player_2": { "name": "Silva", "hero": "Achilles", "winner": false },
+		"data":{ "date": "2025-11-13", "map": "Streets of Novigrad" }
+	},
+	{
+		"player_1": { "name": "Silva", "hero": "The Genie", "winner": false },
+		"player_2":{ "name": "Everton", "hero": "Eredin", "winner": true },
+		"data":{ "date": "2025-11-13", "map": "Streets of Novigrad" }
+	},
+	{
+		"player_1":{ "name": "João", "hero": "Big Foot", "winner": true },
+		"player_2": { "name": "André", "hero": "Tomoe Gozen", "winner": false },
+		"data":{ "date": "2025-11-13", "map": "Soho" }
+	},
+	{
+		"player_1":{ "name": "André", "hero": "Yennenga", "winner": true },
+		"player_2": { "name": "João", "hero": "She Hulk", "winner": false },
+		"data":{ "date": "2025-11-13", "map": "Soho" }
+	},
+	{
+		"player_1": { "name": "João", "hero": "She Hulk", "winner": true },
+		"player_2":{ "name": "André", "hero": "Bloody Mary", "winner": false },
+		"data":{ "date": "2025-11-13", "map": "Soho" }
+	},
+	{
+		"player_1": { "name": "João", "hero": "Sherlock Holmes", "winner": false },
+		"player_2":{ "name": "Everton", "hero": "Doctor Strange", "winner": true },
+		"data":{ "date": "2025-11-13", "map": "Marmoreal" }
+	},
+	{
+		"player_1": { "name": "João", "hero": "Spiderman", "winner": true },
+		"player_2":{ "name": "Everton", "hero": "Eredin", "winner": false },
+		"data":{ "date": "2025-11-13", "map": "Marmoreal" }
+	},
+	{
+		"player_1": { "name": "Everton", "hero": "Eredin", "winner": true },
+		"player_2":{ "name": "João", "hero": "Big Foot", "winner": false },
+		"data":{ "date": "2025-11-13", "map": "Marmoreal" }
+	},
+	{
+		"player_1": { "name": "Silva", "hero": "Achilles", "winner": true },
+		"player_2":{ "name": "André", "hero": "Tomoe Gozen", "winner": false },
+		"data":{ "date": "2025-11-13", "map": "Soho" }
+	},
+	{
+		"player_1": { "name": "André", "hero": "Yennenga", "winner": false },
+		"player_2":{ "name": "Silva", "hero": "Sinbad", "winner": true },
+		"data":{ "date": "2025-11-13", "map": "Soho" }
+	},
+	{
+		"player_1": { "name": "Silva", "hero": "The Genie", "winner": true },
+		"player_2":{ "name": "André", "hero": "Bloody Mary", "winner": false },
+		"data":{ "date": "2025-11-12", "map": "King Solomon's Mine" }
+	},
+	{
+		"player_1": { "name": "Silva", "hero": "Achilles", "winner": true },
+		"player_2":{ "name": "Everton", "hero": "Oda Nobunaga", "winner": false },
+		"data":{ "date": "2025-11-12", "map": "King Solomon's Mine" }
+	},
+	{
+		"player_1":{ "name": "André", "hero": "Yennenga", "winner": true },
+		"player_2": { "name": "Everton", "hero": "Sun Wukong", "winner": false },
+		"data":{ "date": "2025-11-12", "map": "Azuchi Castle" }
+	},
+	{
+		"player_1":{ "name": "Everton", "hero": "Harry Houdini", "winner": true },
+		"player_2": { "name": "Silva", "hero": "Robin Hood", "winner": false },
+		"data":{ "date": "2025-11-12", "map": "Sherwood Forest" }
+	},
+	{
+		"player_1": { "name": "André", "hero": "Bloody Mary", "winner": false },
+		"player_2":{ "name": "Everton", "hero": "Bigfoot", "winner": true },
+		"data":{ "date": "2025-11-12", "map": "Sherwood Forest" }
+	},
+	{
+		"player_1": { "name": "João", "hero": "Sherlock Holmes", "winner": true },
+		"player_2":{ "name": "André", "hero": "Bloody Mary", "winner": false },
+		"data":{ "date": "2025-11-18", "map": "Sanctum Sanctorum" }
+	},
+	{
+		"player_1": { "name": "André", "hero": "Bloody Mary", "winner": false },
+		"player_2":{ "name": "João", "hero": "Loki", "winner": true },
+		"data":{ "date": "2025-11-18", "map": "Streets of Novigrad" }
+	},
+	{
+		"player_1": { "name": "João", "hero": "Yennefer", "winner": true },
+		"player_2":{ "name": "André", "hero": "Winter Soldier", "winner": false },
+		"data":{ "date": "2025-11-18", "map": "Soho" }
+	},
+	{
+		"player_1": { "name": "João", "hero": "Siri", "winner": true },
+		"player_2":{ "name": "André", "hero": "Black Widow", "winner": false },
+		"data":{ "date": "2025-11-18", "map": "Soho" }
+	},
+	{
+		"player_1": { "name": "João", "hero": "Black Panther", "winner": false },
+		"player_2":{ "name": "André", "hero": "Squirrel Girl", "winner": true },
+		"data":{ "date": "2025-11-18", "map": "Santa's Workshop" }
+	},
+	{
+		"player_1": { "name": "João", "hero": "Daredevil", "winner": false },
+		"player_2":{ "name": "André", "hero": "Cloak Dagger", "winner": true },
+		"data":{ "date": "2025-11-19", "map": "Marmoreal" }
+	},
+	{
+		"player_1": { "name": "Silva", "hero": "Ancient Leshen", "winner": false },
+		"player_2":{ "name": "André", "hero": "Ms. Marvel", "winner": true },
+		"data":{ "date": "2025-11-19", "map": "Globe Theatre" }
+	},
+	{
+		"player_1": { "name": "João", "hero": "Chupacabra", "winner": true },
+		"player_2":{ "name": "Everton", "hero": "Pandora", "winner": false },
+		"data":{ "date": "2025-11-20", "map": "Helicarrier" }
+	},
+	{
+		"player_1": { "name": "Silva", "hero": "Doctor Strange", "winner": false },
+		"player_2":{ "name": "André", "hero": "Black Widow", "winner": true },
+		"data":{ "date": "2025-11-20", "map": "Hell's Kitchen" }
+	},
+	{
+		"player_1": { "name": "Silva", "hero": "Doctor Strange", "winner": false },
+		"player_2":{ "name": "André", "hero": "Bloody Mary", "winner": true },
+		"data":{ "date": "2025-11-20", "map": "Hell's Kitchen" }
+	},
+	{
+		"player_1": { "name": "Everton", "hero": "Eredin", "winner": false },
+		"player_2":{ "name": "João", "hero": "Harry Houdini", "winner": true },
+		"data":{ "date": "2025-11-20", "map": "Helicarrier" }
+	},
+	{
+		"player_1":{ "name": "Everton", "hero": "She Hulk", "winner": false },
+		"player_2": { "name": "Silva", "hero": "Achilles", "winner": true },
+		"data":{ "date": "2025-11-20", "map": "Hanging Gardens" }
+	},
+	{
+		"player_1": { "name": "André", "hero": "Elektra", "winner": false },
+		"player_2":{ "name": "João", "hero": "Black Panther", "winner": true },
+		"data":{ "date": "2025-11-20", "map": "King Solomon's Mine" }
+	},
+	{
+		"player_1": { "name": "André", "hero": "Elektra", "winner": true },
+		"player_2":{ "name": "João", "hero": "Sun Wukong", "winner": false },
+		"data":{ "date": "2025-11-20", "map": "King Solomon's Mine" }
+	},
+	{
+		"player_1": { "name": "João", "hero": "Harry Houdini", "winner": false },
+		"player_2":{ "name": "André", "hero": "Daredevil", "winner": true },
+		"data":{ "date": "2025-11-20", "map": "King Solomon's Mine" }
+	},
+	{
+		"player_1": { "name": "Everton", "hero": "Eredin", "winner": false },
+		"player_2":{ "name": "Silva", "hero": "Sinbad", "winner": true },
+		"data":{ "date": "2025-11-20", "map": "Hanging Gardens" }
+	},
+	{
+		"player_1": { "name": "Everton", "hero": "Pandora", "winner": true },
+		"player_2":{ "name": "André", "hero": "Black Widow", "winner": false },
+		"data":{ "date": "2025-11-20", "map": "Helicarrier" }
+	},
+	{
+		"player_1":{ "name": "André", "hero": "Daredevil", "winner": false },
+		"player_2": { "name": "Everton", "hero": "Achilles", "winner": true },
+		"data":{ "date": "2025-11-20", "map": "Helicarrier" }
+	},
+	{
+		"player_1":{ "name": "João", "hero": "Black Panther", "winner": false },
+		"player_2": { "name": "Silva", "hero": "Blackbeard", "winner": true },
+		"data":{ "date": "2025-11-20", "map": "Navy Pier" }
+	},
+	{
+		"player_1":{ "name": "João", "hero": "Bigfoot", "winner": false },
+		"player_2": { "name": "Silva", "hero": "Sinbad", "winner": true },
+		"data":{ "date": "2025-11-20", "map": "Navy Pier" }
+	},
+	{
+		"player_1":{ "name": "Silva", "hero": "Chupacabra", "winner": false },
+		"player_2": { "name": "André", "hero": "Bullseye", "winner": true },
+		"data":{ "date": "2025-11-20", "map": "Navy Pier" }
+	},
+	{
+		"player_1":{ "name": "André", "hero": "Winter Soldier", "winner": false },
+		"player_2": { "name": "Silva", "hero": "Loki", "winner": true },
+		"data":{ "date": "2025-11-20", "map": "Venice" }
+	},
+	{
+		"player_1":{ "name": "André", "hero": "Winter Soldier", "winner": true },
+		"player_2": { "name": "Silva", "hero": "Ms. Marvel", "winner": false },
+		"data":{ "date": "2025-11-20", "map": "Santa's Workshop" }
+	},
+	{
+		"player_1":{ "name": "Silva", "hero": "Spiderman", "winner": true },
+		"player_2": { "name": "André", "hero": "Squirrel Girl", "winner": false },
+		"data":{ "date": "2025-11-20", "map": "Marmoreal" }
+	}
+]

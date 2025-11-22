@@ -37,7 +37,7 @@
                         <a class="active" href="#generator">Generator</a>
                     </div>
                     <div class="right">
-                        <a href="#faq">FAQ</a>
+                        <a href="#statistics">Statistics</a>
                     </div>
                 </div>
             </nav>
@@ -153,6 +153,7 @@
                     </div>
                 </form>
             </div>
+            <?php require_once 'statistics.php'; ?>
         </div>
     </div>
 

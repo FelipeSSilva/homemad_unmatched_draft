@@ -151,7 +151,7 @@ class Draft implements \JsonSerializable
 
     public function isDone(): bool
     {
-        return count($this->log()) >= (count($this->players()) * 6);
+        return count($this->log()) >= (count($this->players()) * 5);
     }
 
     public function undoLastAction()

@@ -20,7 +20,7 @@ class GeneratorConfig
             }
 
             $this->name = get('game_name', '');
-            if (trim($this->name) == '') $this->name = 'Fight Club';
+            if (trim($this->name) == '') $this->name = 'Regional Classification';
             else $this->name = htmlentities($this->name);
 
             $this->sets = array_filter(array_map('htmlentities', get('custom_factions', [])));
@@ -29,7 +29,7 @@ class GeneratorConfig
             $availableHeroes = filteringArraysByAttribute($this->sets, $allHeroes, 'sets', 'slug');
             $this->heroesAvaibleCount = count($availableHeroes);
 
-            if($this->heroesAvaibleCount < (get('num_players') * 5)){
+            if($this->heroesAvaibleCount < ((get('num_players') * 4) + 1)){
                 return_error('The number of sets is less than required');
             }
 

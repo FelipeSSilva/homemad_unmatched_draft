@@ -125,17 +125,14 @@
 
                                 <h4>Sets</h4>
                                 <div class="input">
-                                    <label>
-
-                                        <span class="help">
+                                     <span class="help">
                                             Select the sets that will be considered in the draft.<br /><br />
-                                            <strong>Note: It is necessary to select enough sets to reach 5 heroes per player.</strong>
+                                            <strong>Note: It is necessary to select enough sets to reach 4 heroes per player.</strong>
                                         </span>
 
-                                        <span class="help">
+                                    <span class="help">
                                             <a href="#" id="select-all">Select All</a> / <a href="#" id="deselect-all">Deselect All</a>
                                         </span>
-                                    </label>
 
                                     <div class="input-group factions">
                                         <?php require_once 'sets.php'; ?>

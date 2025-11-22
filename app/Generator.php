@@ -12,9 +12,14 @@ class Generator
             'slug'
         );
 
-        ksort($heroes);
+        $countPlayers = count($config->players);
+        $heroesCount = ($countPlayers * 4) + 1;
+        $heroesKeys = array_rand($heroes, $heroesCount);
+        $randomHeroes = array_intersect_key($heroes, array_flip((array) $heroesKeys));
 
-        return $heroes;
+        ksort($randomHeroes);
+
+        return $randomHeroes;
     }
 
     public static function maps($config){

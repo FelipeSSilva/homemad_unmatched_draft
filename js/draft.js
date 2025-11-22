@@ -440,7 +440,7 @@ function draft_status() {
         $('button.draft[data-category="map"]').hide();
     }
 
-    if (current_player && current_player.heroes && current_player.heroes.length === 5) {
+    if (current_player && current_player.heroes && current_player.heroes.length === 4) {
         $('button.draft[data-category="hero"]').hide();
     }
 }

@@ -383,5 +383,95 @@
 		"player_1":{ "name": "Silva", "hero": "Spiderman", "winner": true },
 		"player_2": { "name": "André", "hero": "Squirrel Girl", "winner": false },
 		"data":{ "date": "2025-11-20", "map": "Marmoreal" }
+	},
+	{
+		"player_1":{ "name": "Silva", "hero": "Blackbeard", "winner": true },
+		"player_2": { "name": "Everton", "hero": "Pandora", "winner": false },
+		"data":{ "date": "2025-11-25", "map": "Azuchi Castle" }
+	},
+	{
+		"player_1":{ "name": "Everton", "hero": "Black Panther", "winner": false },
+		"player_2": { "name": "Silva", "hero": "Loki", "winner": true },
+		"data":{ "date": "2025-11-25", "map": "Azuchi Castle" }
+	},
+	{
+		"player_1":{ "name": "Ari", "hero": "Robin Hood", "winner": false },
+		"player_2": { "name": "André", "hero": "Bloody Mary", "winner": true },
+		"data":{ "date": "2025-11-25", "map": "Venice" }
+	},
+	{
+		"player_1":{ "name": "Ari", "hero": "Dracula", "winner": false },
+		"player_2": { "name": "André", "hero": "Winter Soldier", "winner": true },
+		"data":{ "date": "2025-11-25", "map": "Venice" }
+	},
+	{
+		"player_1":{ "name": "Silva", "hero": "Blackbeard", "winner": false },
+		"player_2": { "name": "André", "hero": "Ms. Marvel", "winner": true },
+		"data":{ "date": "2025-11-25", "map": "Hell's Kitchen" }
+	},
+	{
+		"player_1":{ "name": "Silva", "hero": "Blackbeard", "winner": false },
+		"player_2": { "name": "André", "hero": "Winter Soldier", "winner": true },
+		"data":{ "date": "2025-11-25", "map": "Hell's Kitchen" }
+	},
+	{
+		"player_1":{ "name": "Ari", "hero": "Robin Hood", "winner": false },
+		"player_2": { "name": "Everton", "hero": "Black Panther", "winner": true },
+		"data":{ "date": "2025-11-25", "map": "Hanging Gardens" }
+	},
+	{
+		"player_1":{ "name": "Ari", "hero": "The Genie", "winner": true },
+		"player_2": { "name": "Everton", "hero": "Pandora", "winner": false },
+		"data":{ "date": "2025-11-25", "map": "Hanging Gardens" }
+	},
+	{
+		"player_1":{ "name": "Everton", "hero": "Robin Hood", "winner": false },
+		"player_2": { "name": "Ari", "hero": "Achilles", "winner": true },
+		"data":{ "date": "2025-11-25", "map": "Hanging Gardens" }
+	},
+	{
+		"player_1":{ "name": "Silva", "hero": "Loki", "winner": false },
+		"player_2": { "name": "André", "hero": "Cloak Dagger", "winner": true },
+		"data":{ "date": "2025-11-25", "map": "Sherwood Forest" }
+	},
+	{
+		"player_1":{ "name": "Silva", "hero": "Loki", "winner": true },
+		"player_2": { "name": "André", "hero": "Daredevil", "winner": false },
+		"data":{ "date": "2025-11-25", "map": "Sherwood Forest" }
+	},
+	{
+		"player_1":{ "name": "André", "hero": "Squirrel Girl", "winner": false },
+		"player_2": { "name": "Silva", "hero": "Spiderman", "winner": true },
+		"data":{ "date": "2025-11-25", "map": "Sherwood Forest" }
+	},
+	{
+		"player_1":{ "name": "Everton", "hero": "Sun Wukong", "winner": true },
+		"player_2": { "name": "Ari", "hero": "Invisible Man", "winner": false },
+		"data":{ "date": "2025-11-25", "map": "Azuchi Castle" }
+	},
+	{
+		"player_1":{ "name": "Ari", "hero": "The Genie", "winner": false },
+		"player_2": { "name": "Everton", "hero": "Blackbeard", "winner": true },
+		"data":{ "date": "2025-11-25", "map": "Azuchi Castle" }
+	},
+	{
+		"player_1":{ "name": "Silva", "hero": "Loki", "winner": true },
+		"player_2": { "name": "Everton", "hero": "Blackbeard", "winner": false },
+		"data":{ "date": "2025-11-25", "map": "Helicarrier" }
+	},
+	{
+		"player_1":{ "name": "Everton", "hero": "Blackbeard", "winner": false },
+		"player_2": { "name": "Silva", "hero": "Spiderman", "winner": true },
+		"data":{ "date": "2025-11-25", "map": "Helicarrier" }
+	},
+	{
+		"player_1":{ "name": "André", "hero": "Black Widow", "winner": true },
+		"player_2": { "name": "Ari", "hero": "The Genie", "winner": false },
+		"data":{ "date": "2025-11-25", "map": "Azuchi Castle" }
+	},
+	{
+		"player_1":{ "name": "Ari", "hero": "Tomoe Gozen", "winner": false },
+		"player_2": { "name": "André", "hero": "Squirrel Girl", "winner": true },
+		"data":{ "date": "2025-11-25", "map": "Azuchi Castle" }
 	}
 ]
